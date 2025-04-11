@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+  background-image: url(https://as1.ftcdn.net/v2/jpg/04/64/63/18/1000_F_464631823_zydvvtiLDgJBWBpeWJSvnZyltE5bahHu.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  backdrop-filter: blur(6px);
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(40, 36, 59);
+}
+
+#year{
+    display: none;
+}
+
+#sem{
+    display: none;
+}
+
+#sub{
+    display: none;
+}
+
+#year.showme{
+    display: block;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 60px;
+    margin: 2px 18px;
+}
+
+.menu ul{
+    display: flex;
+    margin-left: 1400px;
+
+}
+
+.menu ul li{
+    list-style: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 2px 18px 2px 18px;
+    transition: 0.2s all;
+}
+
+.menu ul li a:hover{
+    color: rgb(0, 140, 255);
+    text-shadow: 0px 0px 29px rgb(143, 143, 253);
+    transition: 0.2s all;
+}
+
+.menu ul li a:active{
+    color: rgb(255, 255, 255);
+    text-decoration: wavy;
+}
+
+.main{
+    display: table;
+    align-items: center;
+    margin-left: 26%;
+    margin-top: 4%;
+    padding: 30px;
+    background-image: linear-gradient(70deg, rgb(40, 36, 59), rgb(153, 137, 230));
+    /* background-color: rgb(40, 36, 59); */
+    width: 50%;
+    height: 68%;
+    border-radius: 50px;
+}
+
+.main h1{
+    text-align: center;
+    color: white;
+    width: 900px;
+    font-size: 50px;
+    padding-bottom: 70px;
+
+}
+
+.main div{
+    display: table-row;
+}
+
+.main label{
+    display: table-cell;
+    font-size: 30px;
+    color: white;
+    font-weight: 30px;
+    padding: 20px;
+    text-align: left;
+
+}
+
+.main input{
+    display: table-cell;
+    width: 600px;
+    height: 40px;
+    margin-left: 90px;
+    
+}
+
+.main button{
+    background-color: rgb(248, 102, 102);
+    color: rgb(63, 17, 17);
+    font-size: 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 8%;
+    margin-left: 34%;
+    width: 300px;
+    height: 70px;
+}
+
+.main button:hover{
+    background-color: rgb(226, 80, 80);
+}
+
+footer{
+    display: flex;
+    margin-top: 6%;
+    flex-direction: column;
+    background-color: rgb(40, 36, 59);
+    align-items: center;
+    color: white;
+}
+
+.footer1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-wrap: wrap;
+}
+.social-media a {
+    color: white;
+    margin: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+}
+.social-media a ion-icon {
+    color: white;
+    background-color: black;
+    transition: all 0.3s;
+}
+  
+  
+.social-media a:hover ion-icon {
+    color: red;
+}
+  
+.social-media #fb:hover ion-icon{
+    color: rgb(30, 132, 250);
+}
+  
+.social-media #linkedin:hover ion-icon{
+    color: rgb(54, 179, 214);
+}
+  
+.social-media #ig:hover ion-icon{
+    color: rgb(139, 54, 214);
+}
+  
+.social-media #tw:hover ion-icon{
+    color: rgb(30, 203, 238);
+}
+
+.footer2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    flex-wrap: wrap;
+  }
+  .footer0 {
+    font-weight: 1200;
+    font-family: Changa;
+    transition-duration: 1s;
+    margin-top: 30px;
+  }
+  .footer0:hover {
+    color:  rgb(0, 195, 255);
+  }
+  .footer2 .heading {
+    font-weight: 900;
+    font-family: Changa;
+    font-size: 18px;
+    transition: all 0.5s;
+  }
+  .footer3 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer2 .heading:hover {
+    color: rgb(0, 195, 255);
+  }
+  .footer2 .div:hover {
+    transform: scale(1.05);
+  }
+  .footer3 h4 {
+    margin: 0 10px;
+  }
+  .footer2 div {
+    margin: 10px;
+  }

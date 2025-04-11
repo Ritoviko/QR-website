@@ -1,0 +1,132 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="mainpage.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo" id="logo"><a href="#">QR</a></div>
+        <div class="menu" id="menu">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">COLLEGE</a></li>
+                <li><a href="#">LOGIN</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <form class="main" action="QRcode.html">
+      <div id="main">
+        <h1>Enter these values for QR code</h1>
+        <div id="main-data1">
+            <label>BRANCH</label>
+            <input list="branches" placeholder="Select" id="br" /required>
+            <datalist id="branches">
+                <option value="BCA">
+                <option value="BBA">
+                <option value="B Tech">
+                <option value="MCA">
+                <option value="MBA">
+            </datalist>
+        </div>
+        <div id="main-data2">
+            <label>YEAR</label>
+            <input list="years" placeholder="Select" type="number" min="1" max="4" id="yr" /required>
+            <datalist id="years">
+                <option value="1">
+                <option value="2">
+                <option value="3">
+                <option value="4">
+            </datalist>
+        </div>
+        <div id="main-data3">
+            <label>SEMESTER</label>
+            <input list="sems" placeholder="Select" type="number" min="1" max="8" id="se" /required>
+            <datalist id="sems">
+                <option value="1">
+                <option value="2">
+                <option value="3">
+                <option value="4">
+                <option value="5">
+                <option value="6">
+                <option value="7">
+                <option value="8">
+            </datalist>
+        </div>
+        <div id="main-data4">
+            <label>SUBJECTS</label>
+            <input list="subs" placeholder="Select" id="su" /required>
+            <datalist id="subs">
+              <option value="OOPS using Java">
+              <option value="CD">
+              <option value="CGM">
+              <option value="DD & CA">
+              <option value="ADS">
+              <option value="AOT">
+              <option value="ADS & DW">
+              <option value="CN & DS">
+              <option value="SE">
+              <option value="OS">
+            </datalist>
+        </div>
+        <button id="main-button" type="submit">GENERATE</button>
+      </div>
+    </form>
+    <footer>
+        <div id="footer" class="footer0">
+          <h1>QR WEBSITE</h1>
+        </div>
+        <div class="footer1 ">
+          Connect with us at<div class="social-media">
+            <a href="www.facebook.com" id="fb">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a href="www.linkedin.com" id="linkedin">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a href="www.youtube.com">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+            <a href="www.instagram.com" id="ig">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="www.twitter.com" id="tw">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </div>
+        </div>
+        <div class="footer2">
+          <div class="product">
+            <div class="heading">Get Our app</div>
+            <div class="div">Ios</div>
+            <div class="div">Andoid</div>
+            <div class="div">PC</div>
+            <div class="div">Mac</div>
+    
+          </div>
+          <div class="services">
+            <div class="heading">Content</div>
+            <div class="div">Add a subject</div>
+            <div class="div">Delete a subject</div>
+          </div>
+          <div class="Company">
+            <div class="heading">Company</div>
+            <div class="div">Complaint</div>
+            <div class="div">Careers</div>
+            <div class="div">Support</div>
+          </div>
+          <div class="Get Help">
+            <div class="heading">Get Help</div>
+            <div class="div">Help Center</div>
+            <div class="div">Privacy Policy</div>
+            <div class="div">Terms</div>
+          </div>
+        </div>
+        <div class="footer3">Copyright © <h4>MCASAITM</h4> 2024-2026</div>
+      </footer>
+      
+</body>
+</html>
